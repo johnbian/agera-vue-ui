@@ -10,7 +10,7 @@ const {
 function build(output, input, index, len) {
   chalkConsole.building(index + 1, len);
   run(
-    `vue-cli-service build --target lib --no-clean  --name ${output} --dest ${getAssetsPath(output !== 'index' ? output : '.')} ${input}`,
+    `vue-cli-service build --target lib --no-clean  --name index --dest ${getAssetsPath(output !== 'index' ? output : '.')} ${input}`,
   );
 }
 

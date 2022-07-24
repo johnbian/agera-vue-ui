@@ -957,4 +957,4 @@ main.install = function (Vue) {
 module.exports = __webpack_exports__;
 /******/ })()
 ;
-//# sourceMappingURL=agera-pad-btn.common.js.map
+//# sourceMappingURL=index.common.js.map

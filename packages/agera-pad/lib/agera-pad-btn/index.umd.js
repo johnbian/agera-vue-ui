@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["agera-pad-btn"] = factory(require("vue"));
+		exports["index"] = factory(require("vue"));
 	else
-		root["agera-pad-btn"] = factory(root["Vue"]);
+		root["index"] = factory(root["Vue"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__203__) {
 return /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
@@ -975,4 +975,4 @@ main.install = function (Vue) {
 /******/ })()
 ;
 });
-//# sourceMappingURL=agera-pad-btn.umd.js.map
+//# sourceMappingURL=index.umd.js.map
