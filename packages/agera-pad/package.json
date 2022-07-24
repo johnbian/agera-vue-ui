@@ -1,6 +1,6 @@
 {
   "name": "agera-pad",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "lib/index.umd.js",
   "files": [
     "lib"
@@ -23,8 +23,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue-class-component": "^8.0.0-0",
-    "@vue/test-utils": "^2.0.0-0"
+    "@vue/test-utils": "^2.0.0-0",
+    "vue-class-component": "^8.0.0-0"
   },
   "peerDependencies": {
     "vue": "^3.0.0",
