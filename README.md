@@ -32,14 +32,18 @@
 ```
   yarn workspace <workspace_name> run <script_name>
 ```
-## 使用StoryBook
-### 安装
+## 文档使用docsify
+### 全局安装
 ```
-  yarn add sb@next
+  npm install docsify -g
 ```
 ### 初始化
 ```
-  yarn sb init
+  docsify init ./docs
+```
+### 运行
+```
+  docsify serve docs
 ```
 
 
