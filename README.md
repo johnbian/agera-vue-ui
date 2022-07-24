@@ -32,6 +32,7 @@
 ```
   yarn workspace <workspace_name> run <script_name>
 ```
+## 打包
 ## 文档使用docsify
 ### 全局安装
 ```
@@ -45,6 +46,8 @@
 ```
   docsify serve docs
 ```
-
+## 单元测试
+### Jest + codecov
+### [![codecov](https://codecov.io/gh/johnbian/agera-vue-ui/branch/master/graph/badge.svg?token=P7MX5VWALU)](https://codecov.io/gh/johnbian/agera-vue-ui)
 
 
