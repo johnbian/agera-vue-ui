@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 const { defineConfig } = require('@vue/cli-service');
 
-const target = process.env.VUE_APP_TARGET || 'lib';
+// const target = process.env.VUE_APP_TARGET || 'lib';
 
 module.exports = defineConfig({
   transpileDependencies: true,
@@ -13,11 +13,11 @@ module.exports = defineConfig({
     },
   },
 
-  configureWebpack: (config) => {
-    if (target === 'lib') {
-      config.externals = {
-        vue: 'Vue',
-      };
-    }
-  },
+  // configureWebpack: (config) => {
+  //   if (target === 'lib') {
+  //     config.externals = {
+  //       vue: 'Vue',
+  //     };
+  //   }
+  // },
 });

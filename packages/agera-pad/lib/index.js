@@ -110,13 +110,13 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: external "Vue"
-var external_Vue_namespaceObject = require("Vue");
+;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
+var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
 ;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-40.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
 
 var _hoisted_1 = { class: "agera-pad-button" };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-    return ((0,external_Vue_namespaceObject.openBlock)(), (0,external_Vue_namespaceObject.createElementBlock)("button", _hoisted_1, (0,external_Vue_namespaceObject.toDisplayString)(_ctx.title), 1));
+    return ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("button", _hoisted_1, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(_ctx.title), 1));
 }
 
 ;// CONCATENATED MODULE: ./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
@@ -758,7 +758,7 @@ var VueImpl = /*#__PURE__*/function () {
             return;
           }
 
-          plainData[key] = (0,external_Vue_namespaceObject.ref)(data[key]);
+          plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(data[key]);
           defineProxy(data, key, plainData);
         }); // Invoke composition functions
 
@@ -773,12 +773,12 @@ var VueImpl = /*#__PURE__*/function () {
 
               promise = promise.then(function () {
                 return setupState.then(function (value) {
-                  plainData[key] = (0,external_Vue_namespaceObject.proxyRefs)(value);
+                  plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.proxyRefs)(value);
                   return plainData;
                 });
               });
             } else {
-              plainData[key] = (0,external_Vue_namespaceObject.proxyRefs)(setupState);
+              plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.proxyRefs)(setupState);
             }
           }
         });

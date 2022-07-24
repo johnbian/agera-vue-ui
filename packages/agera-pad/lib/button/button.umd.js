@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("Vue"));
+		module.exports = factory(require("vue"));
 	else if(typeof define === 'function' && define.amd)
-		define(["Vue"], factory);
+		define([], factory);
 	else if(typeof exports === 'object')
-		exports["button"] = factory(require("Vue"));
+		exports["button"] = factory(require("vue"));
 	else
 		root["button"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__740__) {
+})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__203__) {
 return /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -31,10 +31,10 @@ exports.Z = (sfc, props) => {
 
 /***/ }),
 
-/***/ 740:
+/***/ 203:
 /***/ (function(module) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__740__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__203__;
 
 /***/ })
 
@@ -127,13 +127,13 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// EXTERNAL MODULE: external "Vue"
-var external_Vue_ = __webpack_require__(740);
+// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
+var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
 ;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
 
 var _hoisted_1 = { class: "agera-pad-button" };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-    return ((0,external_Vue_.openBlock)(), (0,external_Vue_.createElementBlock)("button", _hoisted_1, (0,external_Vue_.toDisplayString)(_ctx.title), 1));
+    return ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("button", _hoisted_1, (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)(_ctx.title), 1));
 }
 
 ;// CONCATENATED MODULE: ./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
@@ -775,7 +775,7 @@ var VueImpl = /*#__PURE__*/function () {
             return;
           }
 
-          plainData[key] = (0,external_Vue_.ref)(data[key]);
+          plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.ref)(data[key]);
           defineProxy(data, key, plainData);
         }); // Invoke composition functions
 
@@ -790,12 +790,12 @@ var VueImpl = /*#__PURE__*/function () {
 
               promise = promise.then(function () {
                 return setupState.then(function (value) {
-                  plainData[key] = (0,external_Vue_.proxyRefs)(value);
+                  plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.proxyRefs)(value);
                   return plainData;
                 });
               });
             } else {
-              plainData[key] = (0,external_Vue_.proxyRefs)(setupState);
+              plainData[key] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.proxyRefs)(setupState);
             }
           }
         });

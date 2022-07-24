@@ -1,16 +1,17 @@
 <template>
   <div>
-    <AgeraPadBtn title="hello" />
+    <!-- <AgeraPadBtn title="hello-world" /> -->
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import AgeraPadBtn from '../packages/button/main.vue';
+// import { AgeraPadBtn } from '../packages/index';
+// import { AgeraPadBtn } from '../lib/index.umd';
 
 @Options({
   components: {
-    AgeraPadBtn,
+    // AgeraPadBtn,
   },
 })
 export default class App extends Vue {}
