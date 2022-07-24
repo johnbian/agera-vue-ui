@@ -129,14 +129,14 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
-;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
+;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=template&id=49f9c3df&ts=true
 
 var _hoisted_1 = { class: "agera-pad-button" };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
     return ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("button", _hoisted_1, (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)(_ctx.title), 1));
 }
 
-;// CONCATENATED MODULE: ./packages/button/main.vue?vue&type=template&id=58aeb990&ts=true
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=template&id=49f9c3df&ts=true
 
 ;// CONCATENATED MODULE: ../../node_modules/tslib/tslib.es6.js
 /******************************************************************************
@@ -904,7 +904,7 @@ function prop(options) {
 
 
 
-;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/button/main.vue?vue&type=script&lang=ts
+;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=script&lang=ts
 
 
 var AgeraPadBtn = /** @class */ (function (_super) {
@@ -934,16 +934,16 @@ var AgeraPadBtn = /** @class */ (function (_super) {
 }(Vue));
 /* harmony default export */ var mainvue_type_script_lang_ts = (AgeraPadBtn);
 
-;// CONCATENATED MODULE: ./packages/button/main.vue?vue&type=script&lang=ts
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=script&lang=ts
  
-;// CONCATENATED MODULE: ../../node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-65.use[0]!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-65.use[1]!../../node_modules/vue-loader/dist/stylePostLoader.js!../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-65.use[2]!../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-65.use[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/button/main.vue?vue&type=style&index=0&id=58aeb990&lang=scss
+;// CONCATENATED MODULE: ../../node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-65.use[0]!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-65.use[1]!../../node_modules/vue-loader/dist/stylePostLoader.js!../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-65.use[2]!../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-65.use[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=49f9c3df&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./packages/button/main.vue?vue&type=style&index=0&id=58aeb990&lang=scss
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=49f9c3df&lang=scss
 
 // EXTERNAL MODULE: ../../node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(407);
-;// CONCATENATED MODULE: ./packages/button/main.vue
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue
 
 
 
@@ -954,7 +954,7 @@ var exportHelper = __webpack_require__(407);
 const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(mainvue_type_script_lang_ts, [['render',render]])
 
 /* harmony default export */ var main = (__exports__);
-;// CONCATENATED MODULE: ./packages/button/index.ts
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/index.ts
 // 导入组件，组件必须声明 name
 
 // 为组件提供 install 安装方法，供按需引入
@@ -962,12 +962,12 @@ main.install = function (Vue) {
     Vue.component(main.name, main);
 };
 // 导出组件
-/* harmony default export */ var packages_button = (main);
+/* harmony default export */ var agera_pad_btn = (main);
 
 ;// CONCATENATED MODULE: ./packages/index.ts
 
 var components = [
-    packages_button,
+    agera_pad_btn,
 ];
 // will install the plugin only once
 var install = function (Vue) {
@@ -982,7 +982,7 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
 // To allow use as module (npm/webpack/etc.) export component
-/* harmony default export */ var packages_0 = ({ install: install, AgeraPadBtn: packages_button });
+/* harmony default export */ var packages_0 = ({ install: install, AgeraPadBtn: agera_pad_btn });
 // It's possible to expose named exports when writing components that can
 // also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
 // export const RollupDemoDirective = component;
