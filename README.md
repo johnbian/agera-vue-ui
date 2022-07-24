@@ -33,6 +33,13 @@
   yarn workspace <workspace_name> run <script_name>
 ```
 ## 打包
+### webpack
+### rollup
+## 发布
+### 初始化
+```
+  lerna bootstrap
+```
 ## 文档使用docsify
 ### 全局安装
 ```
