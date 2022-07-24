@@ -37,6 +37,10 @@
 ```
 ## 单元测试
 ### Jest + codecov
+### 发布测试结果
+```
+  codecov --token=xxxx
+```
 ### [![codecov](https://codecov.io/gh/johnbian/agera-vue-ui/branch/master/graph/badge.svg?token=P7MX5VWALU)](https://codecov.io/gh/johnbian/agera-vue-ui)
 
 ## 打包
