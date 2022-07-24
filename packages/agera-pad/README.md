@@ -1,29 +1,29 @@
 # agera-pad
 
-## Project setup
+## 安装
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+yarn add agera-pad -D
 ```
 
-### Compiles and minifies for production
+## 使用（按需加载）
+### 方式一
+```js
+import AgeraPadBtn from 'agera-pad/lib/agera-pad-btn';
+import 'agera-pad/lib/agera-pad-btn/index.css';
 ```
-yarn build
-```
+### 方式二 利用babel-plugin-import
+```js
+  import { AgeraPadBtn } from 'agera-pad';
 
-### Run your unit tests
+  // babel.config.js
+  [
+    "import",
+    {
+      "libraryName": "agera-pad",
+      "libraryDirectory": "lib",
+      style: (name, file) => {
+        return `${name}/index.css`
+      }
+    }
+  ],
 ```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,3 +1,6 @@
+# 介绍
+本项目是用lerna管理，目前规划2个UI库，pad和mobile，基于Vue3开发。
+
 ## lerna + workspace 使用
 ### 1. 初始化
 ```js
@@ -32,9 +35,14 @@
 ```
   yarn workspace <workspace_name> run <script_name>
 ```
+## 单元测试
+### Jest + codecov
+### [![codecov](https://codecov.io/gh/johnbian/agera-vue-ui/branch/master/graph/badge.svg?token=P7MX5VWALU)](https://codecov.io/gh/johnbian/agera-vue-ui)
+
 ## 打包
 ### webpack
 ### rollup
+
 ## 发布
 ### 查看变化
 ```
@@ -44,6 +52,7 @@
 ```
   lerna publish
 ```
+
 ## 文档使用docsify
 ### 全局安装
 ```
@@ -57,8 +66,3 @@
 ```
   docsify serve docs
 ```
-## 单元测试
-### Jest + codecov
-### [![codecov](https://codecov.io/gh/johnbian/agera-vue-ui/branch/master/graph/badge.svg?token=P7MX5VWALU)](https://codecov.io/gh/johnbian/agera-vue-ui)
-
-

@@ -1,6 +1,13 @@
-### 可以直接通过 script 引⼊入
+### 使用
+```js
+  import { AgeraPadBtn } from 'agera-pad';
+
+  app.component('AgeraPadBtn', AgeraPadBtn);
 ```
-  
+```vue
+<template>
+  <AgeraPadBtn title="test-model-success" />
+</template>
 ```
 
 ## 说明
