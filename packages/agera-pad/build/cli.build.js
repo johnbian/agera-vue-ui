@@ -14,13 +14,18 @@ function build(output, input, index, len) {
   );
 }
 
+// 删除多余文件
+function rimrafDemo(outputPath) {
+  const output = outputPath !== 'index' ? `./${outputPath}/demo.html` : './demo.html';
+  rimraf(getAssetsPath(output), () => {
+    // todo
+  });
+}
+
 const pkgLen = libList.length;
 libList.forEach((item, index) => {
   build(item.output, item.input, index, pkgLen);
-});
-// 删除多余文件
-rimraf(getAssetsPath('./demo.html'), () => {
-  // todo
+  rimrafDemo(item.output);
 });
 
 // 重命名common文件

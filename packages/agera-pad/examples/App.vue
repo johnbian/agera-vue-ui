@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import AgeraPadBtn from '../packages/Button/main.vue';
+import AgeraPadBtn from '../packages/button/main.vue';
 
 @Options({
   components: {

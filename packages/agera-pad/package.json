@@ -1,7 +1,20 @@
 {
   "name": "agera-pad",
   "version": "0.1.0",
-  "private": false,
+  "main": "lib/index.umd.js",
+  "files": [
+    "lib"
+  ],
+  "author": "john.bian",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "vue3",
+    "pad",
+    "frontend",
+    "component",
+    "components"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
     "build": "vue-cli-service build  --mode dev",

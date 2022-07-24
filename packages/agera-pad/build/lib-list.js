@@ -10,7 +10,6 @@ const setMPA = () => {
   Object.keys(entryFiles).forEach((index) => {
     const entryFile = entryFiles[index];
     const reg = new RegExp(`${packageName}/packages/(.*)/index.ts`);
-    console.log(reg);
     const match = entryFile.match(reg);
     const pageName = match && match[1];
     const obj = {
@@ -25,7 +24,6 @@ const setMPA = () => {
     output: 'index',
     moduleName: 'index',
   });
-  console.log(entry);
   return entry;
 };
 

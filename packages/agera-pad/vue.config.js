@@ -15,8 +15,6 @@ module.exports = defineConfig({
 
   configureWebpack: (config) => {
     if (target === 'lib') {
-      console.log('-----target------');
-      console.log(target);
       config.externals = {
         vue: 'Vue',
       };

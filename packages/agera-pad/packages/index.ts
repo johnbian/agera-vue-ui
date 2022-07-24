@@ -1,4 +1,4 @@
-import AgeraPadBtn from './Button/index';
+import AgeraPadBtn from './button/index';
 
 const components = [
   AgeraPadBtn,

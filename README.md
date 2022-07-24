@@ -36,9 +36,13 @@
 ### webpack
 ### rollup
 ## 发布
-### 初始化
+### 查看变化
 ```
-  lerna bootstrap
+  lerna changed
+```
+### 发布npm
+```
+  lerna publish
 ```
 ## 文档使用docsify
 ### 全局安装
