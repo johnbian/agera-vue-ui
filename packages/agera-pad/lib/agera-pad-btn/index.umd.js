@@ -129,14 +129,14 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
-;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=template&id=49f9c3df&ts=true
+;// CONCATENATED MODULE: ../../node_modules/thread-loader/dist/cjs.js!../../node_modules/ts-loader/index.js??clonedRuleSet-83.use[1]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=template&id=a58ed22e&ts=true
 
 var _hoisted_1 = { class: "agera-pad-button" };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-    return ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("button", _hoisted_1, (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)(_ctx.title), 1));
+    return ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("button", _hoisted_1, (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)(_ctx.title) + " " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)(_ctx.subTitle), 1));
 }
 
-;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=template&id=49f9c3df&ts=true
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=template&id=a58ed22e&ts=true
 
 ;// CONCATENATED MODULE: ../../node_modules/tslib/tslib.es6.js
 /******************************************************************************
@@ -917,6 +917,12 @@ var AgeraPadBtn = /** @class */ (function (_super) {
             writable: true,
             value: void 0
         });
+        Object.defineProperty(_this, "subTitle", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         return _this;
     }
     AgeraPadBtn = __decorate([
@@ -924,6 +930,10 @@ var AgeraPadBtn = /** @class */ (function (_super) {
             name: 'agera-pad-btn',
             props: {
                 title: {
+                    type: String,
+                    default: '',
+                },
+                subTitle: {
                     type: String,
                     default: '',
                 },
@@ -936,10 +946,10 @@ var AgeraPadBtn = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=script&lang=ts
  
-;// CONCATENATED MODULE: ../../node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-65.use[0]!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-65.use[1]!../../node_modules/vue-loader/dist/stylePostLoader.js!../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-65.use[2]!../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-65.use[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=49f9c3df&lang=scss
+;// CONCATENATED MODULE: ../../node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-65.use[0]!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-65.use[1]!../../node_modules/vue-loader/dist/stylePostLoader.js!../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-65.use[2]!../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-65.use[3]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=a58ed22e&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=49f9c3df&lang=scss
+;// CONCATENATED MODULE: ./packages/agera-pad-btn/main.vue?vue&type=style&index=0&id=a58ed22e&lang=scss
 
 // EXTERNAL MODULE: ../../node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(407);

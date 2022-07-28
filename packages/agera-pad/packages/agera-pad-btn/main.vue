@@ -1,6 +1,6 @@
 <template>
   <button class="agera-pad-button">
-    {{ title }}
+    {{ title }} {{ subTitle }}
   </button>
 </template>
 
@@ -14,10 +14,16 @@ import { Options, Vue } from 'vue-class-component';
       type: String,
       default: '',
     },
+    subTitle: {
+      type: String,
+      default: '',
+    },
   },
 })
 export default class AgeraPadBtn extends Vue {
   private title?: string;
+
+  private subTitle?: string;
 }
 </script>
 
